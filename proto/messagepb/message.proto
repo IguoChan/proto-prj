@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package messagepb;
+
+option go_package = "github.com/IguoChan/proto-prj/genproto/messagepb";
+
+import "simplepb/simple.proto";
+
+message MessageRequest {
+  simplepb.SimpleRequest req = 1;
+}
