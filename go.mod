@@ -1,4 +1,4 @@
-module github.com/IguoChan/proto-prj
+module github.com/IguoChan/proto-project
 
 go 1.18
 
